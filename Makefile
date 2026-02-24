@@ -1,9 +1,9 @@
 # Variables
-APP=authorizer-service
+APP=authorizer
 SECRET_NAME := $(APP)-secret
 ENV_FILE := dev.env
-NAMESPACE := authorizer-service
-OUT_DIR=apps/authorizer-service/overlays
+NAMESPACE := authorizer
+OUT_DIR=apps/authorizer/overlays
 
 
 .PHONY: generate-secret-dev
